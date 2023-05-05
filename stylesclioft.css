@@ -41,6 +41,10 @@ footer {
     padding: 10px;
     text-align: center;
 }
+footer img.whatsapp-icon {
+    width: 20px;
+    height: 20px;
+}
 
 /* Estilos de la página de profesionales */
 .profesional {
