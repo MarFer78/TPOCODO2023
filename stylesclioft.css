@@ -6,6 +6,9 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #333;
     color: #fff;
     padding: 10px;
@@ -13,6 +16,18 @@ header {
 
 header h1 {
     margin: 0;
+    display: flex;
+    align-items: center;
+    margin-right: 540px;
+}
+.ojo-icon {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+nav {
+    margin-right: 20px;
 }
 
 nav ul {
@@ -45,6 +60,18 @@ footer img.whatsapp-icon {
     width: 20px;
     height: 20px;
 }
+footer img.posicion-icon {
+    width: 20px;
+    height: 20px;
+}
+footer img.telefono-icon {
+    width: 20px;
+    height: 20px;
+}
+footer img.mail-icon {
+    width: 20px;
+    height: 20px;
+}
 
 /* Estilos de la página de profesionales */
 .profesional {
@@ -64,4 +91,3 @@ footer img.whatsapp-icon {
 .profesional p {
     margin-bottom: 5px;
 }
-
