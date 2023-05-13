@@ -18,7 +18,7 @@ header h1 {
     margin: 0;
     display: flex;
     align-items: center;
-    margin-right: 540px;
+    margin-right: 440px;
 }
 .ojo-icon {
     width: 50px;
@@ -73,7 +73,7 @@ footer img.mail-icon {
     height: 20px;
 }
 
-/* Estilos de la página de profesionales */
+/* Estilos de la página de profesionales 
 .profesional {
     margin-bottom: 20px;
 }
@@ -90,4 +90,30 @@ footer img.mail-icon {
 
 .profesional p {
     margin-bottom: 5px;
+}*/
+.profesional {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
+
+.profesional img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profesional h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.profesional p {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
