@@ -73,24 +73,23 @@ footer img.mail-icon {
     height: 20px;
 }
 
-/* Estilos de la página de profesionales 
+#instagram-icon,
+.instagram-icon {
+  font-size: 24px;
+  width: 20px;
+  height: 20px;
+  color: #E1306C;
+}
+/*estilo profesionales*/
 .profesional {
-    margin-bottom: 20px;
-}
-
-.profesional img {
-    width: 150px;
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
     height: auto;
-    border-radius: 50%;
+    flex-wrap: wrap;
 }
-
-.profesional h3 {
-    margin-top: 10px;
-}
-
-.profesional p {
-    margin-bottom: 5px;
-}*/
 .profesional {
     margin-bottom: 20px;
     display: flex;
@@ -117,3 +116,5 @@ footer img.mail-icon {
     text-align: center;
 }
 
+
+  
